@@ -15,7 +15,7 @@ if [ -z "$1" ]; then
 fi
 
 
-dd if=$IMG of=$1
+dd if=$IMG of=$1 bs=2048
 exit 0
 
 
